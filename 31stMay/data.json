@@ -1,0 +1,13 @@
+{
+    "myData":[{
+            "image":"https://m.media-amazon.com/images/M/MV5BZWYzOGEwNTgtNWU3NS00ZTQ0LWJkODUtMmVhMjIwMjA1ZmQwXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_.jpg",
+            "title":"Top Gun Maverick",
+            "rating":9
+        },
+        {
+            "image":"https://www.appocalypse.co/wp-content/uploads/2019/07/War-Teaser-Poster.jpg",
+            "title":"War",
+            "rating":9
+        }
+    ]
+} 

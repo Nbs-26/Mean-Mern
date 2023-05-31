@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        }
+
+        li {
+        float: left;
+        }
+
+        li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        }
+
+        li a:hover {
+        background-color: #111;
+        }   
+        #NavBar{
+            position: sticky;
+            top: 0;
+        }
+        .active {
+        background-color: #04AA6D;
+        }
+        body{
+            background-color: aquamarine;
+        }
+        #showable{
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation bar -->
+    <div id="NavBar">
+    <ul>
+        <li><a class= "active" href="#Home">Home</a></li>
+        <li><a href="#Gallery">Gallery</a></li>
+        <li><a href="#Contact">Contact</a></li>
+        <li><a href="#About">About</a></li>
+    </ul>
+</div><br>
+<!-- <button id="clk1">Click to show the table</button><br>
+<button id="clk1">Click to not to show the table</button> -->
+<h3>Image Render</h3>
+<button id="clickable5">Click to render image</button>
+<button id="clickable6">Click to not to show image</button>
+<div id="showable"></div>
+<h3>Show text in text area</h3>
+<br>
+<textarea id="tarea"></textarea><br>
+<button id="clickable3">Click to show text area</button>
+<button id="clickable4">Click to not to show text area</button>
+<h3>Show rows in a table</h3><br>
+<table border="1">
+    <tr>
+        <th>Sl.No</th>
+        <th>Name</th>
+        <th>Gender</th>
+    </tr>
+    <tbody></tbody>
+</table>
+<br>
+<button id="clickable1">Click to show a table</button>
+<button id="clickable2">Click to not show a table</button>
+</body>
+<script src="day2.js"></script>
+</html>
