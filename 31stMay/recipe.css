@@ -1,9 +1,9 @@
-#show_movies{
+#show_recipe{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 5px;
 }
-#show_movies img{
+#show_recipe img{
     width: 300px;
     height: 400px;
     object-fit: cover;
@@ -16,10 +16,10 @@ div{
    box-shadow: 4px 4px 8px;
 }
 body{
-    background-color: rgb(52, 63, 66);
+    background-color: rgb(234, 216, 216);
 }
 h3,p{
-    color: azure;
+    color: rgb(16, 17, 17);
 }
 button{
     color:rgb(2, 2, 2);
@@ -29,7 +29,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #daada9;
     }
 
     li {
@@ -38,27 +38,33 @@ ul {
 
     li a {
     display: block;
-    color: white;
+    color: rgb(18, 18, 18);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     }
 
     li a:hover {
-    background-color: #111;
+    background-color: #e75c5c;
     }   
     #NavBar{
         position: sticky;
         top: 0;
     }
     .active {
-    background-color: #484949;
+    background-color: #e3c7c1;
     }
-    #primeVideo{
+    #zomatoLogo{
         width: 90px;
-        height: 47px;
+        height: 48px;
         margin-right: 5px;
+        margin-left: 4px;
     }
     .right{
         float: right;
+    }
+    button{
+        border-radius: 1rem;
+        margin: 1rem;
+        background-color: #dfd1ce;
     }
